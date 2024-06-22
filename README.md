@@ -6,12 +6,8 @@
 #### Использование Conda (рекомендуется)
 
 ```sh
-conda env create
-conda activate numerical-methods
-
-```sh
-conda env create
-conda activate numerical-methods
+conda env create -f environment.yml
+conda activate numerical-methods-helper-env
 ```
 
 #### Использование Pip
